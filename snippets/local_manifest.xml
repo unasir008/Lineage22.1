@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="github"
+  <remote name="local"
         fetch="https://github.com/" />
   
     <!-- Device Tree -->
-    <project name="unasir008/android_device_samsung_a12" path="device/samsung/a12" remote="github" revision="Lineage-22.2" />
+    <project name="unasir008/android_device_samsung_a12" path="device/samsung/a12" remote="local" revision="Lineage-22.2" />
 
     <!-- Vendor Lpm Tree -->
-    <project name="unasir008/android_vendor_samsung_lpm-p35" path="vendor/samsung/a12" remote="github" revision="Lineage-22.2" />
+    <project name="unasir008/android_vendor_samsung_lpm-p35" path="vendor/samsung/a12" remote="local" revision="Lineage-22.2" />
 
     <!-- Kernel Source -->
-    <project name="unasir008/android_kernel_samsung_a12" path="kernel/samsung/a12" remote="github" revision="a125f-s6" />
+    <project name="unasir008/android_kernel_samsung_a12" path="kernel/samsung/a12" remote="local" revision="a125f-s6" />
 
   <!-- vendor lineage-priv Tree -->
-    <project name="unasir008/android_vendor_lineage-priv_keys" path="vendor/lineage-priv/keys" remote="github" revision="main" />
+    <project name="unasir008/android_vendor_lineage-priv_keys" path="vendor/lineage-priv/keys" remote="local" revision="main" />
 
 </manifest
